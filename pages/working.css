@@ -1,0 +1,80 @@
+
+html {
+    background-image: linear-gradient(to bottom right, #ce00ce, rgb(73, 73, 252));
+        /* Set rules to fill background */
+        min-height: 100%;
+        min-width: 1024px;
+        
+        /* Set up proportionate scaling */
+        width: 100%;
+        height: auto;
+        
+        /* Set up positioning */
+        position: fixed;
+        top: 0;
+        left: 0;
+}
+
+.button {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 4%;
+}
+
+.btn-styled {
+    font-size: 14px;
+    margin: 8px;
+    padding: 0 10px;
+    line-height: 2;
+}
+
+button {
+    border: 5px solid;
+    color: white;
+    background-color: rgb(162, 43, 199);
+    font-weight: bold;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-color: rgb(115, 184, 151);
+    height: 57px;
+    width: 98px;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.trackList {
+    display: flex;
+    margin: 70px auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+
+}
+
+.songInfo {
+    display: flex;
+    margin: 70px auto 20px auto;
+    position: relative;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    flex-direction: row;
+}
+
+
+.moodTitle {
+    background-image: url("../working_out.jpg"); 
+    background-size:cover;
+    background-position: center;
+    text-align: center;
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+ }

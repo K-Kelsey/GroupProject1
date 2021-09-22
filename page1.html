@@ -13,19 +13,20 @@
     <header class = "moodTitle" id = "moodTitle">{mood here}</header>
 
     <div class="container" id="container">
-        <button onclick="songInfo()">songInfo</button>
+
     </div>
 
     <!--api content from Spotify and Shazam// displays playlist, song being played and shazam song info-->
     <div class = "content" id = "content">
-        <div class = "trackList" id = "trackList">{spotify tracklist here}</div>
+        <div class = "trackList" id = "trackList">{spotify player here}</div>
         
         <div class = "songInfo" id = "songInfo">{shazam player}</div>
-
-        <div class = "spotPlayer" id = "spotPlayer">{spotify player here}</div>
     </div>
     <!--takes user back to moods page-->
     <div class="button" id="button">
+
+        <button onclick="songInfo()">Song Info</button>
+
         <button class = "startApp" id = "startApp">Back to Moods</button>
     </div>
 </body>
