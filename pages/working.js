@@ -111,16 +111,16 @@ var moodRoadtrip = ["Hurts So Good bvy John Mellencamp", "Some Kind of Wonderful
 // }, false);
 
 
-//------------------------------------------------Love-----------------------------------------------
+//------------------------------------------------Working-----------------------------------------------
 
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'John Paul Jones by John Coltrane';
+  button.innerHTML = 'Inside Out by Eve 6';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=0oevmhtYLxc";
+    window.location.href = "https://www.youtube.com/watch?v=T8Xb_7YDroQ";
   };
  
   var container = document.getElementById('container');
@@ -130,11 +130,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Lazy AFternoon by Pete La Roca';
+  button.innerHTML = 'Paralyzer by Finger Eleven';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=KFFs9XsZKvw";
+    window.location.href = "https://www.youtube.com/watch?v=BJk6gZuPKRE";
   };
  
   var container = document.getElementById('container');
@@ -144,25 +144,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Bye Bye Blackbird by Ron Carter';
+  button.innerHTML = 'All My Friends are Nobodies by zebrahead';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=DNL2nSH7530";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
-
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'Beautiful Love by Kenny Barron Trio';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=tJ9mdJjoWj8";
+    window.location.href = "https://www.youtube.com/watch?v=WBcveX82KAk";
   };
  
   var container = document.getElementById('container');
@@ -172,11 +158,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Billies Bounce by Sonny Knight';
+  button.innerHTML = '666 by World Divided';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=RN1i4qU-q6Q";
+    window.location.href = "https://www.youtube.com/watch?v=DZpt8YXFwso";
   };
  
   var container = document.getElementById('container');
@@ -186,11 +172,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Burning Bright by Ben Wendel';
+  button.innerHTML = 'Born to be Epic by Equilibrium';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=-LCcephMQWI";
+    window.location.href = "https://www.youtube.com/watch?v=hYoB2Tj3LR8";
   };
  
   var container = document.getElementById('container');
@@ -200,81 +186,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Clint Eastwood by Gorillaz';
+  button.innerHTML = 'My Curse by Killswitch Engine';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=-u0TOPB3nrI";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
- 
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'deep cracks by fogdream';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
- 
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'cayenne by vibe academy';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
- 
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'Willow Whip by Vanilla Beach';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
- 
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'Gust of Feels by Reggie Lume';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=IkE-jU9QBVE";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
- 
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'hanging on by middlesway';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=HSyjSIVDRqw";
+    window.location.href = "https://www.youtube.com/watch?v=iPW9AbRMwFU";
   };
  
   var container = document.getElementById('container');
@@ -284,11 +200,81 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'My Turn by Florence Ada';
+  button.innerHTML = 'Uppercuts by Terror Reid';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=IY3JhA64Y5E";
+    window.location.href = "https://www.youtube.com/watch?v=FjUa8x4udE4";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'Pemex by Shakwell';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=VlIExbHPWtw";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'Nike Ticks by YNG Martyr';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=eAwclWAC37k";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'Whats Poppin by DaBaby';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=HIwAI05Y1fU";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'Audi by Smokepurpp';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=1dvTJJvEFL8";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'Hot n*gga by Bobby Shmurda';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=vJwKKKd2ZYE";
   };
  
   var container = document.getElementById('container');
@@ -298,11 +284,39 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Vanilla Sky by Trell Daniels';
+  button.innerHTML = 'Onna Come Up by Lil Eazzyy';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=ntquu4KNpws";
+    window.location.href = "https://www.youtube.com/watch?v=S3JUizWXdUM";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'How You Feel? by DJ Scheme';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=RjTsQINzwl8";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'Fox 5 by Lil Keed';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=CcdtGQShZXI";
   };
  
   var container = document.getElementById('container');
@@ -312,11 +326,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Here Comes the Sun by Nylonwings';
+  button.innerHTML = 'One, Two Step by Ciara';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "youtube.com/watch?v=ryYz7o3ptAo";
+    window.location.href = "https://www.youtube.com/watch?v=iBHNgV6_znU";
   };
  
   var container = document.getElementById('container');
@@ -326,25 +340,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Time after Time by Edy Hafler';
+  button.innerHTML = 'Always on Time by Ja Rule';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=C4xq9uu2dzY";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
-
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'Like You by Bow Wow';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=b-EqP0BLy1Q";
+    window.location.href = "https://www.youtube.com/watch?v=nkwWiYDeMvE";
   };
  
   var container = document.getElementById('container');
@@ -354,68 +354,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Let Me Love You by Mario';
+  button.innerHTML = 'Back That Azz Up by JUVENILE';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=H64QG4UsrGI";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
- 
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'I Wanna Know by Joe';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=dJ8VjyPw0qY";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
- 
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'This is How We Do It by Montell Jordan';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=0hiUuL5uTKc";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
- 
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'Buy U a Drank by T-Pain';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=dBrRBZy8OTs";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
-
-
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'Right Thurr by Chingy';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=iO476kD-k0g";
+    window.location.href = "https://www.youtube.com/watch?v=WL2txMU50CI";
   };
  
   var container = document.getElementById('container');
@@ -425,11 +368,25 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Deathless Audio by Frenic';
+  button.innerHTML = 'Mary Jane Rick James';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=xCXGD-liQfE";
+    window.location.href = "https://www.youtube.com/watch?v=PrPNwLuk0zQ";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'You Dropped A Bomb On Me  by The Gap Band';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=17lkdqoLt44";
   };
  
   var container = document.getElementById('container');
@@ -439,11 +396,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Tribute to Nujabes by Kondor';
+  button.innerHTML = 'll Be Good Rene & Angela';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=X_d_caNZ09I";
+    window.location.href = "https://www.youtube.com/watch?v=VVj1m8uy5AM";
   };
  
   var container = document.getElementById('container');
@@ -453,11 +410,67 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Sjpptomg Stars by DJ Sorama';
+  button.innerHTML = 'Heroes by Poylow';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=kUlcVw4KjQI";
+    window.location.href = "https://www.youtube.com/watch?v=pMp6bNe-CY8";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'Round & Round by SP3CTRUM';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=WOZejEi5fwo";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'Somewhere in LA by DVRKO';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=liq_c00ZzFI";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'Bang Bang by Jessie J';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=0HDdjwpPM3Y";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'Heatwave by Wiley';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=CZkt1qsyzHI";
   };
  
   var container = document.getElementById('container');
@@ -467,25 +480,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Superposition by Young the Giant';
+  button.innerHTML = 'Aint Your Mama by Jennifer Lopez';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=QxJhrwyn0M4";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
- 
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'Wish I Knew You by The Revivalists';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=o0Pt7M0weUI";
+    window.location.href = "https://www.youtube.com/watch?v=Pgmx7z49OEk";
   };
  
   var container = document.getElementById('container');
@@ -495,11 +494,25 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Over My Head by Judah & the Lion';
+  button.innerHTML = 'Stranglehold by Ted Nugent';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=CG1HId-yGu0";
+    window.location.href = "https://www.youtube.com/watch?v=0c3d7QgZr7g";
+  };
+ 
+  var container = document.getElementById('container');
+  container.appendChild(button);
+}, false);
+ 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.createElement('button');
+  button.type = 'button';
+  button.innerHTML = 'The Boys Are Back In Town by Thin Lizzy';
+  button.className = 'btn-styled';
+ 
+  button.onclick = function() {
+    window.location.href = "https://www.youtube.com/watch?v=nN120kCiVyQ";
   };
  
   var container = document.getElementById('container');
@@ -509,11 +522,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Grainy White & Brown Noise by Astral Noise';
+  button.innerHTML = 'One Bourbon, One Scotch, One Beer by George Thorogood & The Destoryers';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com";
+    window.location.href = "https://www.youtube.com/watch?v=sDf0IwXoOmY";
   };
  
   var container = document.getElementById('container');
@@ -523,11 +536,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Noise by the Ocean by The Noise Nannies';
+  button.innerHTML = 'Dont You Worry About Me by Bad Boy Chiller Crew';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com";
+    window.location.href = "https://www.youtube.com/watch?v=lPckvzufS90";
   };
  
   var container = document.getElementById('container');
@@ -537,11 +550,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Brown Sleeping Nopise by Aelozzz';
+  button.innerHTML = 'Dont You Worry About Me by Bad Boy Chiller Crew';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com";
+    window.location.href = "https://www.youtube.com/watch?v=xayg8QTT738";
   };
  
   var container = document.getElementById('container');
@@ -551,81 +564,11 @@ document.addEventListener('DOMContentLoaded', function() {
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
   button.type = 'button';
-  button.innerHTML = 'Whispering by Bumblebee';
+  button.innerHTML = 'Do Me No Good by Shift K3Y';
   button.className = 'btn-styled';
  
   button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=U1PQpD6-Prs";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
-
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'Morning Coffee by Wist';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=hYhxwO37GpM";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
-
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'Always With Me by Sleepy Tom';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
-
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'cellophane by FKA twigs';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=YkLjqFpBh84";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
-
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'A Soulmate Who Wasnt Meant to Be by Jess Benko';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=L3yvk7Ix0g4";
-  };
- 
-  var container = document.getElementById('container');
-  container.appendChild(button);
-}, false);
-
-document.addEventListener('DOMContentLoaded', function() {
-  var button = document.createElement('button');
-  button.type = 'button';
-  button.innerHTML = 'I Love You So by The Walters';
-  button.className = 'btn-styled';
- 
-  button.onclick = function() {
-    window.location.href = "https://www.youtube.com/watch?v=NwFVSclD_uc";
+    window.location.href = "https://www.youtube.com/watch?v=VDNAywbP0es";
   };
  
   var container = document.getElementById('container');

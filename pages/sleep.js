@@ -60,7 +60,7 @@ var moodReading = ["John Paul Jones by John Coltrane", "Lazy AFternoon by Pete L
 
 var moodExercise = ["Inside Out by Eve 6", "Paralyzer by Finger Eleven", "All My Friends are Nobodies by zebrahead", "666 by World Divided", "Born to be Epic by Equilibrium", "My Curse by Killswitch Engage", 
 "Uppercuts by Terror Raid", "Pemex by shakewell", "Nike Ticks by YNG Martyr", "Whats Poppin by Jack Harlow", "Audi. by Smokepurpp", "Hot N*gga by Bobby Shmurda",
-"Onna Come Up by Lil Eazzyy", "How You Feel by DJ Scheme", "Fox 5 by Lil Keed", "One, Two Step by Ciara", "Always on Time by Ja Rule, Back That Azz Up by JUVENILE", "Mary Jabe by Rick James", "You Dropped a Bomb On Me by The Gap Band", 
+"Onna Come Up by Lil Eazzyy", "How You Feel by DJ Scheme", "Fox 5 by Lil Keed", "One, Two Step by Ciara", "Always on Time by Ja Rule, Back That Azz Up by JUVENILE", "Mary Jane by Rick James", "You Dropped a Bomb On Me by The Gap Band", 
 "I'll Be Good by Rene & Angela", "Heroes by Poylow", "Round & Round by SP3CTRUM", "Somewhere in LA by DVRKO", "Bang Bang by Jessie J", "Heatwave by Wiley", "Ain't Your Mama by Jennifer Lopez", "Stranglehold by Ted Nugent", "The Boys Are Back In Town by Thin Lizzy", 
 "One Bourbon, One Scotch, One Beer by George Thorogood & The Destoryers", "Don't You Worry About Me by Bad Boy Chiller Crew", "Let Me Love You John Gibbons", "Do Me No Good by Shift K3Y"]
 
