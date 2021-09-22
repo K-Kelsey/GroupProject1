@@ -4,28 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CoverPage</title>
+    <title>Cover</title> <!--changed "CoverPage" to "Cover" for ease of referencing html pages in browser-G-->
+    <link rel="stylesheet" href="cover.css"> <!--added link to cover.css and a bootstrap library link-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.behance.net/gallery/14209843/SIMPLIFICA-Typeface-Free/modules/511805225">
+    <script type="text/javascript" src="moodjs.js"></script>
 </head>
 <body>
     <header>
-        <div class = "pageHeader" id = "pageHeader">Welcome to Moodsic</div>
+        <!--left blank for now-->
     </header>
 
     <card>
         <div class = "siteInfo" id = "siteInfo">
-            <h2>Welcome to our website!</h2>
-            <p>We are happy you chose to test out our new project, with Moodsic, we aim to enhance your daily grind with a new way to discover what great music is available out there!</p>
-            <p>We encourage you to choose the mood you wish to vibe to. Or if you just want some white noise in the background while you do your daily chores and activities, we have some great options available pertaining to those tasks as well!.</p>
-            <p>Why are you still reading this?  Let's start vibing!</p>
+            <h2 class = "title" id = "title">MOODSIC</h2> <!--Changed "welcome to our website" to "Moodsic"-G-->
+            <div class="description" id="description"> <!--put description in div-G-->
+                <p>We are happy you chose to test out our new project, with Moodsic, we aim to enhance your daily grind with a new way to discover what great music is available out there!</p>
+                <p>We encourage you to choose the mood you wish to vibe to. Or if you just want some white noise in the background while you do your daily chores and activities, we have some great options available pertaining to those tasks as well!.</p>
+                <p>Why are you still reading this?  Let's start vibing!</p>
+            </div>
 
-            <button class = "startApp" id = "startApp">Start Vibing</button>
-        </div>
+            <div class="buttonCenter" id="buttonCenter">
+                <button class = "startApp" id = "startApp">Start Vibing</button>
+            </div>
 
-        
-            <a href="https://publish.twitter.com/#">Twitter</a>
-            <a href="https://www.instagram.com/">Instagram</a>
-            <a href="https://www.youtube.com/">YouTube</a>
-            
+            <div class="socialMedia" id="socialMedia">
+                <a href="https://publish.twitter.com/#">Twitter</a>
+                <a href="https://www.instagram.com/">Instagram</a>
+                <a href="https://www.youtube.com/">YouTube</a>    
+            </div>
+        </div>            
 
     </card>
 </body>

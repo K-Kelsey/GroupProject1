@@ -36,7 +36,8 @@
 
 var curSong;
 var curMood;
-
+var infoGen = document.getElementById('songInfo');
+var spotPlayer = document.getElementById('')
 //hard coded all songs in shazam accepted format, not a great fix but it is indeed a fix
 var moodRage =["My Own Worst Enemy by Lit", "All Downhill From Here by New Found Glory", "I Woke Up In A Car by Something Corporate", "666 by World Divided", "Born to be Epic by Equilibrium", "My Curse by Killswitch Engine", "Uppercuts by Terror Reid", 
 "Pemex by Shakwell", "Nike Ticks by YNG Martyr", "Whats Poppin by DaBaby", "Audi by Smokepurpp", "Hot n*gga by Bobby Shmurda", "Onna Come Up by Lil Eazzyy", "How You Feel? by DJ Scheme", "Fox 5 by Lil Keed", "S.L.U.T. by Bea Miller", "Nightmares by Ellise", 
@@ -110,6 +111,8 @@ var moodRoadtrip = ["Hurts So Good bvy John Mellencamp", "Some Kind of Wonderful
 "Jessie's Girl by Rick Springfield", "Love Shack by The B-52's"]
 
 
+
+
 //Shazam web API song info. Buttons should give this function song name and artis as arg, returns song info.
 function songInfo(song){
     var axios = require("axios").default;
@@ -140,12 +143,220 @@ function songInfo(song){
 //Function for generating buttons. Functions as a tracklist and buttons should return song info for shazam on click
 function printBtn() {
     for (var i = 0; i < curMood.length; i++) {
-        var btn = document.createElement("button");
+        var btn = document.createElement("Track " + (i +1).toString);
         var t = document.createTextNode(curMood[i]);
+        btn.addEventListener('click', () => {
+          curSong = curMood[i];
+          infoGen.appendChild(songInfo(curSong))
+        })
         btn.appendChild(t);
         document.body.appendChild(btn);
     }
-}
+} 
+
+
+//Buttons from index will set current mood, generate a buttonized tracklist, create spotify player
+
+//-----------------Rage Button---------------
+let rageBtn = document.getElementById('rageBtn')
+
+rageBtn.addEventListener('click', () => {
+
+curMood = moodRage;
+printBtn();
+
+var ragePlay = document.createElement("iframe");
+ragePlay.src="https://open.spotify.com/embed/playlist/5PdrjMZzJYfXf50yePAwID" 
+ragePlay.width="100%" 
+ragePlay.height="380" 
+ragePlay.allowfullscreen="" 
+ragePlay.allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+
+spotPlayer.appendChild(ragePlay)
+})
+
+//-----------------Stressed Button---------------
+let stressedBtn = document.getElementById('stressedBtn')
+
+stressedBtn.addEventListener('click', () => {
+
+curMood = moodDestress;
+printBtn();
+
+var stressedPlay = document.createElement("iframe");
+stressedPlay.src="https://open.spotify.com/embed/playlist/5PdrjMZzJYfXf50yePAwID" 
+stressedPlay.width="100%" 
+stressedPlay.height="380" 
+stressedPlay.allowfullscreen="" 
+stressedPlay.allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+
+spotPlayer.appendChild(stressedPlay)
+})
+
+//-----------------Chill Button---------------
+let chillBtn = document.getElementById('chillBtn')
+
+chillBtn.addEventListener('click', () => {
+
+curMood = moodCalm;
+printBtn();
+
+var chillPlay = document.createElement("iframe");
+chillPlay.src="https://open.spotify.com/embed/playlist/5PdrjMZzJYfXf50yePAwID" 
+chillPlay.width="100%" 
+chillPlay.height="380" 
+chillPlay.allowfullscreen="" 
+chillPlay.allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+
+spotPlayer.appendChild(chillPlay)
+})
+
+//-----------------Happy Button---------------
+let happyBtn = document.getElementById('happyBtn')
+
+happyBtn.addEventListener('click', () => {
+
+curMood = moodHappy;
+printBtn();
+
+var happyPlay = document.createElement("iframe");
+happyPlay.src="https://open.spotify.com/embed/playlist/5PdrjMZzJYfXf50yePAwID" 
+happyPlay.width="100%" 
+happyPlay.height="380" 
+happyPlay.allowfullscreen="" 
+happyPlay.allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+
+spotPlayer.appendChild(happyPlay)
+})
+
+//-----------------Sad Button---------------
+let sadBtn = document.getElementById('sadBtn')
+
+sadBtn.addEventListener('click', () => {
+
+curMood = moodSad;
+printBtn();
+
+var sadPlay = document.createElement("iframe");
+sadPlay.src="https://open.spotify.com/embed/playlist/5PdrjMZzJYfXf50yePAwID" 
+sadPlay.width="100%" 
+sadPlay.height="380" 
+sadPlay.allowfullscreen="" 
+sadPlay.allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+
+spotPlayer.appendChild(sadPlay)
+})
+
+//-----------------Love Button---------------
+let loveBtn = document.getElementById('loveBtn')
+
+loveBtn.addEventListener('click', () => {
+
+curMood = moodLove;
+printBtn();
+
+var lovePlay = document.createElement("iframe");
+lovePlay.src="https://open.spotify.com/embed/playlist/5PdrjMZzJYfXf50yePAwID" 
+lovePlay.width="100%" 
+lovePlay.height="380" 
+lovePlay.allowfullscreen="" 
+lovePlay.allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+
+spotPlayer.appendChild(lovePlay)
+})
+
+//-----------------Cooking Button---------------
+let cookingBtn = document.getElementById('cookingBtn')
+
+cookingBtn.addEventListener('click', () => {
+
+curMood = moodCooking;
+printBtn();
+
+var cookingPlay = document.createElement("iframe");
+cookingPlay.src="https://open.spotify.com/embed/playlist/5PdrjMZzJYfXf50yePAwID" 
+cookingPlay.width="100%" 
+cookingPlay.height="380" 
+cookingPlay.allowfullscreen="" 
+cookingPlay.allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+
+spotPlayer.appendChild(cookingPlay)
+})
+
+//-----------------Dance Button---------------
+let danceBtn = document.getElementById('danceBtn')
+
+danceBtn.addEventListener('click', () => {
+
+curMood = moodParty;
+printBtn();
+
+var partyPlay = document.createElement("iframe");
+partyPlay.src="https://open.spotify.com/embed/playlist/5PdrjMZzJYfXf50yePAwID" 
+partyPlay.width="100%" 
+partyPlay.height="380" 
+partyPlay.allowfullscreen="" 
+partyPlay.allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+
+spotPlayer.appendChild(partyPlay)
+})
+
+//-----------------Reading Button---------------
+let readingBtn = document.getElementById('readingBtn')
+
+readingBtn.addEventListener('click', () => {
+
+curMood = moodReading;
+printBtn();
+
+var readingPlay = document.createElement("iframe");
+readingPlay.src="https://open.spotify.com/embed/playlist/5PdrjMZzJYfXf50yePAwID" 
+readingPlay.width="100%" 
+readingPlay.height="380" 
+readingPlay.allowfullscreen="" 
+readingPlay.allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+
+spotPlayer.appendChild(readingPlay)
+})
+
+
+//-----------------Workout Button---------------
+let workoutBtn = document.getElementById('workoutBtn')
+
+workoutBtn.addEventListener('click', () => {
+
+curMood = moodExercise;
+printBtn();
+
+var workoutPlay = document.createElement("iframe");
+workoutPlay.src="https://open.spotify.com/embed/playlist/5PdrjMZzJYfXf50yePAwID" 
+workoutPlay.width="100%" 
+workoutPlay.height="380" 
+workoutPlay.allowfullscreen="" 
+workoutPlay.allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+
+spotPlayer.appendChild(workoutPlay)
+})
+
+//-----------------Gaming Button---------------
+let gamingBtn = document.getElementById('gamingBtn')
+
+gamingBtn.addEventListener('click', () => {
+
+curMood = moodGaming;
+printBtn();
+
+var gamingPlay = document.createElement("iframe");
+gamingPlay.src="https://open.spotify.com/embed/playlist/5PdrjMZzJYfXf50yePAwID" 
+gamingPlay.width="100%" 
+gamingPlay.height="380" 
+gamingPlay.allowfullscreen="" 
+gamingPlay.allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+
+spotPlayer.appendChild(gamingPlay)
+})
+
+
 
 //These lines of code to be added in HTML. 
 

@@ -4,19 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="page1.css">
+    <script type="text/javascript" src="moodjs.js"></script>
     <title>Music</title>
 </head>
 <body>
     <!--add chosen mood to the title-->
     <header class = "moodTitle" id = "moodTitle">{mood here}</header>
 
+    <div class="container" id="container">
+        <button onclick="songInfo()">songInfo</button>
+    </div>
+
     <!--api content from Spotify and Shazam// displays playlist, song being played and shazam song info-->
     <div class = "content" id = "content">
-        <div class = "trackList" id = "trackList"
-        <div class = "songPlayer" id = "songPlayer">{spotify player here}</div>
+        <div class = "trackList" id = "trackList">{spotify tracklist here}</div>
+        
         <div class = "songInfo" id = "songInfo">{shazam player}</div>
+
+        <div class = "spotPlayer" id = "spotPlayer">{spotify player here}</div>
     </div>
     <!--takes user back to moods page-->
-    <button class = "startApp" id = "startApp">Back to Moods</button>
+    <div class="button" id="button">
+        <button class = "startApp" id = "startApp">Back to Moods</button>
+    </div>
 </body>
 </html>
