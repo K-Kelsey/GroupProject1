@@ -1,4 +1,4 @@
-   
+
 html {
     background-image: linear-gradient(to bottom right, #ce00ce, rgb(73, 73, 252));
         /* Set rules to fill background */
@@ -49,6 +49,7 @@ button {
     justify-content: space-evenly;
     align-items: flex-start;
     
+
 }
 
 .songInfo {
