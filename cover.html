@@ -4,43 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cover</title> <!--changed "CoverPage" to "Cover" for ease of referencing html pages in browser-G-->
-    <link rel="stylesheet" href="cover.css"> <!--added link to cover.css and a bootstrap library link-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="cover.css">
 
-    <script src="https://kit.fontawesome.com/c8e4d183c2.js"></script>
+    <title>Moodsic</title>
+</head>
+<body>
+    <h1>Welcome to Moodsic!</h1>
+    <h2>How are we feeling today?</h2>
+    <div class="container">
+        <div class="row">
 
-<body class="background" id="background">
-
-    <header>
-        <!--left blank for now-->
-    </header>
-
-    <card class = "card" id="card">
-        <style>.card {background-color: 'transparent';}</style>
-        <div class = "siteInfo" id = "siteInfo">
-            <h2 class = "title" id = "title">MOODSIC</h2> <!--Changed "welcome to our website" to "Moodsic"-G-->
-            <div class="description" id="description"> <!--put description in div-G-->
-
-                <p>We are happy you chose to test out our new project. With Moodsic, we aim to enhance your daily grind with a new way to discover what great music is available out there!</p>
-
-                <p>We encourage you to choose the mood you wish to vibe to. Or if you just want some white noise in the background while you do your daily chores and activities, we have some great options available pertaining to those tasks as well!.</p>
-                <p>Why are you still reading this?  Let's start vibing!</p>
-            </div>
-
-            <div class="buttonCenter" id="buttonCenter">
-                <button class = "startApp" id = "startApp">Start Vibing</button>
-            </div>
-
-            <div class="social-media" id="social-media">
-                <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
-                <a href="https://www.instagram.com/myurl/"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.github.com"><i class="fab fa-github"></i></a>
-                <a href="https://publish.twitter.com/#"><i class="fab fa-twitter"></i></a>
-            </div>  
+          <div class="btn-container col">
+            <button class = "rageBtn" id = "rageBtn" type = "button" onclick="window.location.href='../GroupProject1/pages/rage.html'">Angry</button>
+            <button class = "stressedBtn" id = "stressedBtn" type = "button" onclick="window.location.href='../GroupProject1/pages/destress.html'"> Stressed</button>
+            <button class = "sleepBtn" id = "sleepBtn" type = "button" onclick="window.location.href='../GroupProject1/pages/sleep.html'">Sleepy</button>
+            <button class = "chillBtn" id = "chillBtn" type = "button" onclick="window.location.href='../GroupProject1/pages/chill.html'">Cozy</button>
+            <button class = "happyBtn" id = "happyBtn" type = "button" onclick="window.location.href='../GroupProject1/pages/happy.html'">Happy</button>
+            <button class = "sadBtn" id = "sadBtn" type = "button" onclick="window.location.href='../GroupProject1/pages/sad.html'">Sad</button>
+            <button class = "loveBtn" id = "loveBtn" type = "button" onclick="window.location.href='../GroupProject1/pages/love.html'">Love</button>
+            <button class = "cookingBtn" id = "cookingBtn" type = "button" onclick="window.location.href='../GroupProject1/pages/cooking.html'">Cooking</button>
+            <button class = "gamingBtn" id = "gamingBtn" type = "button" onclick="window.location.href='../GroupProject1/pages/gaming.html'">Gaming</button>
+            <button class = "danceBtn" id = "danceBtn" type = "button" onclick="window.location.href='../GroupProject1/pages/dance.html'">Party</button>
+            <button class = "readingBtn" id = "readingBtn" type = "button" onclick="window.location.href='../GroupProject1/pages/reading.html'">Reading</button>
+            <button class = "workoutBtn" id = "workoutBtn" type = "button" onclick="window.location.href='../GroupProject1/pages/working.html'">Workout</button>
         </div>
+      </div>
 
 
-    </card>
 </body>
-</html>
+       

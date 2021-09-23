@@ -1,106 +1,181 @@
-
-html,
-.card {
-    background-image: linear-gradient(to bottom right, rgb(73, 73, 252), #ce00ce);
-        min-height: 100%;
-        min-width: 100%;
-          
-        width: auto;
-        height: auto;
-          
-        position: relative;
-        top: 0;
-        left: 0;
+html {
+background-image: linear-gradient(to bottom right, rgb(73, 73, 252), #ce00ce);
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+        
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+        
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
 }
 
-.container-fluid {
-    display: flex;
-    flex-wrap: wrap;
-    position: relative;
-    justify-content: center;
-    align-items: center; 
-    flex-direction: column;
+.btn-container {
+display: flex;
+flex-wrap: wrap;
+position: relative;
+justify-content: center;
+align-items: center; 
+flex-direction: row;
+
 }
 
-.siteInfo {
-    padding: 5%;
+.rageBtn {
+height: 200px;
+width: 25%;
+background-image: url("angry.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
 }
 
-.title {
-    text-align: center;
-    font-size: 10.0vw;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 5%;
+.stressedBtn {
+height: 200px;
+width: 25%;
+background-image: url("stressed_anxious.png"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
 }
 
-.description {
-    text-align: center;
-    font-style: italic;
-    margin-left: 5%;
-    margin-right: 5%;
-    font-size: 1.5vw;
+.sleepBtn {
+height: 200px;
+width: 25%;
+background-image: url("sleepy.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
 }
 
-.buttonCenter {
-    text-align: center;
-    padding: 5%;
+.chillBtn {
+height: 200px;
+width: 25%;
+background-image: url("cozy.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.happyBtn {
+height: 200px;
+width: 25%;
+background-image: url("happy.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.sadBtn {
+height: 200px;
+width: 25%;
+background-image: url("sad.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.loveBtn {
+height: 200px;
+width: 25%;
+background-image: url("love.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.cookingBtn {
+height: 200px;
+width: 25%;
+background-image: url("cooking.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.gamingBtn {
+height: 200px;
+width: 25%;
+background-image: url("gaming.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.danceBtn {
+height: 200px;
+width: 25%;
+background-image: url("party.jpeg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.readingBtn {
+height: 200px;
+width: 25%;
+background-image: url("reading.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.workoutBtn {
+height: 200px;
+width: 25%;
+background-image: url("working_out.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
 }
 
 .startApp {
-    background-color: transparent;
-    border-radius: 20px;
-    font-size: 2.0vw;
-}
+border: 5px solid;
+background-color: cyan;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+height: 35px;
+width: 22px;
+} 
 
-.startApp:hover {
-    background-color: rgb(73, 73, 252);
-    border-color:white;
-}
-
-.social-media {
-    text-align: center;
-    font-size: 2.0vw;
-}
-
-.social-media i {
-    color: black;
-}
-
-.social-media a:hover,
-.a-social-b a:hover{
-    background-color:#000000;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-    transition: all ease 0.5s;
-}
-
-.social-media a:hover i,
-.a-social-b a:hover i{
-    color: #FFFFFF;
-    transition: all ease 0.5s;
-}
-
-.a-social-b {
-    position: fixed;
-    top: 5%;
-    right: 0px;
-    transform: translateY(-50%);
-}
-
-.a-social-b a{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 5%;
-    height: 5%;
-    padding: 0px;
-    margin: 0px;
-    line-height: 0px;
-    background-color: #FFFFFF;
-    border: 1px solid #cbcbcb;
-    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
-}
-
-.a-social-b i{
-    color: #2b2b2b;
-    font-size: 20px;
-}
