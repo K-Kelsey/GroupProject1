@@ -13,7 +13,7 @@ This is team 8's group project website, Moodsic!
 
 *[FontAwesome](https://kit.fontawesome.com/c8e4d183c2.js)
 
-*[Spotify](https://open.spotify.com) for the player API.
+*[Spotify](https://open.spotify.com) for the music API.
 
 *[YouTube](https://www.youtube.com) for the YouTube API.
 
