@@ -111,7 +111,7 @@ var moodRoadtrip = ["Hurts So Good bvy John Mellencamp", "Some Kind of Wonderful
 // }, false);
 
 
-//------------------------------------------------Love-----------------------------------------------
+//------------------------------------------------Cooking-----------------------------------------------
 
 document.addEventListener('DOMContentLoaded', function() {
   var button = document.createElement('button');
