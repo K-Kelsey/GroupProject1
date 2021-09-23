@@ -23,7 +23,6 @@ html {
     padding: 4%;
 }
 
-
 .btn-styled {
     font-size: 14px;
     margin: 8px;
@@ -67,11 +66,11 @@ button {
     justify-content: space-evenly;
     align-items: flex-end;
     flex-direction: row;
-
 }
 
+
 .moodTitle {
-    background-image: url("angry.jpg"); 
+    background-image: url("../love.jpg"); 
     background-size:cover;
     background-position: center;
     text-align: center;
@@ -79,4 +78,3 @@ button {
     font-family: Arial, Helvetica, sans-serif;
     padding: 50px;
  }
-

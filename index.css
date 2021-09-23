@@ -1,16 +1,182 @@
 html {
-    background-image: linear-gradient(to bottom right, rgb(73, 73, 252), #ce00ce);
-        /* Set rules to fill background */
-        min-height: 100%;
-        min-width: 1024px;
-          
-        /* Set up proportionate scaling */
-        width: 100%;
-        height: auto;
-          
-        /* Set up positioning */
-        position: fixed;
-        top: 0;
-        left: 0;
+background-image: linear-gradient(to bottom right, rgb(73, 73, 252), #ce00ce);
+    /* Set rules to fill background */
+    min-height: 100%;
+    min-width: 1024px;
+        
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+        
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
 }
+
+.btn-container {
+display: flex;
+flex-wrap: wrap;
+position: relative;
+justify-content: center;
+align-items: center; 
+flex-direction: row;
+
+}
+
+.rageBtn {
+height: 200px;
+width: 25%;
+background-image: url("angry.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.stressedBtn {
+height: 200px;
+width: 25%;
+background-image: url("stressed_anxious.png"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.sleepBtn {
+height: 200px;
+width: 25%;
+background-image: url("sleepy.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.chillBtn {
+height: 200px;
+width: 25%;
+background-image: url("cozy.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.happyBtn {
+height: 200px;
+width: 25%;
+background-image: url("happy.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.sadBtn {
+height: 200px;
+width: 25%;
+background-image: url("sad.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.loveBtn {
+height: 200px;
+width: 25%;
+background-image: url("love.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.cookingBtn {
+height: 200px;
+width: 25%;
+background-image: url("cooking.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.gamingBtn {
+height: 200px;
+width: 25%;
+background-image: url("gaming.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.danceBtn {
+height: 200px;
+width: 25%;
+background-image: url("party.jpeg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.readingBtn {
+height: 200px;
+width: 25%;
+background-image: url("reading.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.workoutBtn {
+height: 200px;
+width: 25%;
+background-image: url("working_out.jpg"); 
+background-size:cover;
+background-position: center;
+color: green;
+font-weight: bold;
+font-size: 42px;
+border: 5px solid white;
+}
+
+.startApp {
+border: 5px solid;
+background-color: cyan;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+height: 35px;
+width: 22px;
+} 
+
 
