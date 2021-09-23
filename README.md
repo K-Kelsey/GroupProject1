@@ -4,7 +4,7 @@
 This is team 8's group project website, Moodsic!
 
 >To navigate the website click the "start vibing" button and it will bring you to our cover page interface that displays the buttons with different moods and activities.
->Once a button is clicked, the site will then navigate to the page where the spotify API and YouTube API are being used. There you can interact with the generated playlist and pull up the youtube video tied to the song title.
+>Once a button is clicked, the site will then navigate to the page where the spotify API and YouTube API are being used. There you can interact with the generated playlist and pull up the youtube videos tied to the song title.
 
 ### _Sources that helped create this project._
 ---
